@@ -16,11 +16,11 @@
 - 🐧 Solid Linux administration background with expertise in RHEL and Ubuntu environments, focusing on system maintenance, troubleshooting, and performance optimization.
 
 
-## 🧠 My Focus Areas
-- 🚀 CI/CD | 🐳 Docker | ☸️ Kubernetes | 🌍 Terraform | ⚙️ Ansible | ☁️ AWS | 📊 CloudWatch | 📈 Datadog | 🔀 Git | 🐙 GitHub | 🪣 Bitbucket | 🐧 Linux (RHEL & Ubuntu)
+## Tech Stack
+🚀 CI/CD | 🐳 Docker | ☸️ Kubernetes | 🌍 Terraform | ⚙️ Ansible | ☁️ AWS | 📊 CloudWatch | 📈 Datadog | 🔀 Git | 🐙 GitHub | 🪣 Bitbucket | 🐧 Linux (RHEL & Ubuntu)
 
 
-## 🛠️ Languages & Tools
+## 🛠️ Technologies & Tools
 
 <h3 align="center">DevOps & Cloud</h3>
 <p align="center">
