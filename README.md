@@ -43,7 +43,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
-## 🔗 Connect with Me
+🔗 Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/saidineshmodepalli">
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" />
