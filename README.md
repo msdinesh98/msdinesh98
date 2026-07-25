@@ -1,18 +1,53 @@
-# 💫 About Me:
-## 🚀 DevOps Engineer | 4+ Years of Experience<br><br>💻 Experienced DevOps Engineer with 4+ years of expertise in designing, configuring, and maintaining scalable CI/CD pipelines and automated deployment workflows.<br><br>🐳 Proficient in containerization and orchestration using Docker and Kubernetes for efficient application deployment and management.<br><br>☁️ Skilled in Infrastructure as Code (IaC) with Terraform and configuration management using Ansible to automate infrastructure provisioning and operations.<br><br>📊 Experienced in cloud monitoring and observability using AWS CloudWatch and Datadog, ensuring system reliability, performance, and proactive alerting.<br><br>🔧 Strong hands-on experience with Source Code Management (SCM) tools including Git, GitHub, and Bitbucket for version control and collaborative development.<br><br>🐧 Solid Linux administration background with expertise in RHEL and Ubuntu environments, focusing on system maintenance, troubleshooting, and performance optimization.<br><br>### 🛠️ Tech Stack<br><br>🚀 CI/CD | 🐳 Docker | ☸️ Kubernetes | 🌍 Terraform | ⚙️ Ansible | ☁️ AWS | 📊 CloudWatch | 📈 Datadog | 🔀 Git | 🐙 GitHub | 🪣 Bitbucket | 🐧 Linux (RHEL & Ubuntu)<br><br>**Passionate about automation, cloud-native technologies, infrastructure reliability, and continuous improvement.** ✨<br>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Sai%20Dinesh%20Modepalli&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=DevOps%20Engineer&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
+
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=msdinesh98">
+    <img src="https://komarev.com/ghpvc/?username=msdinesh98&label=Profile%20views&color=00FFFF&style=flat-square" alt="msdinesh98's profile views" />
+  </a>
+</p>
+
+## 📌 About Me
+- 💻 Experienced DevOps Engineer with 4+ years of expertise in designing, configuring, and maintaining scalable CI/CD pipelines and automated deployment workflows.
+- 🐳 Proficient in containerization and orchestration using Docker and Kubernetes for efficient application deployment and management.
+- ☁️ Skilled in Infrastructure as Code (IaC) with Terraform and configuration management using Ansible to automate infrastructure provisioning and operations.
+- 📊 Experienced in cloud monitoring and observability using AWS CloudWatch and Datadog, ensuring system reliability, performance, and proactive alerting.
+- 🔧 Strong hands-on experience with Source Code Management (SCM) tools including Git, GitHub, and Bitbucket for version control and collaborative development.
+- 🐧 Solid Linux administration background with expertise in RHEL and Ubuntu environments, focusing on system maintenance, troubleshooting, and performance optimization.
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saidineshmodepalli/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saidineshmodepalli@gmail.com) 
+## 🧠 My Focus Areas
+- 🚀 CI/CD | 🐳 Docker | ☸️ Kubernetes | 🌍 Terraform | ⚙️ Ansible | ☁️ AWS | 📊 CloudWatch | 📈 Datadog | 🔀 Git | 🐙 GitHub | 🪣 Bitbucket | 🐧 Linux (RHEL & Ubuntu)
 
-# 💻 Tech Stack:
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=msdinesh98&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=msdinesh98&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=msdinesh98&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
----
-[![](https://komarev.com/ghpvc/?username=msdinesh98&icon=0&color=0)](https://visitcount.itsvg.in)
+## 🛠️ Languages & Tools
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<h3 align="center">DevOps & Cloud</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" width="40" />
+
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
+</p>
+
+![Top language](https://stats.pphat.top/languages?username=msdinesh98)
+<br/>
+
+## 🔗 Connect with Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/saidineshmodepalli">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" />
+  </a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:saidineshmodepalli@gmail.com">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" />
+  </a>
+</p>
+
+
+
