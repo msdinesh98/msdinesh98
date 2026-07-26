@@ -1,6 +1,6 @@
-
+<picture>
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Sai%20Dinesh%20Modepalli&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=DevOps%20Engineer&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
-
+</picture>
 
 ## 📌 About Me
 - 💻 Experienced DevOps Engineer with 4+ years of expertise in designing, configuring, and maintaining scalable CI/CD pipelines and automated deployment workflows.
