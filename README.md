@@ -18,6 +18,7 @@
 ## 🛠️ Technologies & Tools
 
 <h3 align="center">DevOps & Cloud</h3>
+<picture>
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />&nbsp;&nbsp;
   <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" />&nbsp;&nbsp;
@@ -33,11 +34,12 @@
   <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />
 
 </p>
-
-
+</picture>
+<picture>
 <p align="center">
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
+</picture>
 🔗 Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/saidineshmodepalli">
