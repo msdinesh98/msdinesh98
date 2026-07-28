@@ -1,0 +1,57 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Same palette as header, smoothly cross-fading between the three tones -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b1220">
+        <animate attributeName="stop-color"
+          values="#0b1220;#16213a;#0b1220"
+          dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#16213a">
+        <animate attributeName="stop-color"
+          values="#16213a;#0b1220;#16213a"
+          dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0b1220">
+        <animate attributeName="stop-color"
+          values="#0b1220;#16213a;#0b1220"
+          dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="waveGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c9a24b" stop-opacity="0" />
+      <stop offset="50%" stop-color="#c9a24b" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#c9a24b" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1200" height="180" fill="url(#bodyGrad)" />
+
+  <!-- Smoothly drifting wave layers, evoking a calm horizon rather than busy motion -->
+  <path fill="#c9a24b" opacity="0.06">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="
+      M0,90 C300,40 900,140 1200,90 L1200,180 L0,180 Z;
+      M0,110 C300,150 900,60 1200,110 L1200,180 L0,180 Z;
+      M0,90 C300,40 900,140 1200,90 L1200,180 L0,180 Z" />
+  </path>
+
+  <path fill="#3b82f6" opacity="0.05">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite"
+      values="
+      M0,120 C400,160 800,80 1200,120 L1200,180 L0,180 Z;
+      M0,100 C400,60 800,160 1200,100 L1200,180 L0,180 Z;
+      M0,120 C400,160 800,80 1200,120 L1200,180 L0,180 Z" />
+  </path>
+
+  <!-- Soft gold sweep, slower than the header for visual hierarchy -->
+  <rect x="-300" y="0" width="300" height="180" fill="url(#waveGold)">
+    <animate attributeName="x" values="-300;1200" dur="9s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Thin top and bottom hairlines to frame the section -->
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#c9a24b" stroke-opacity="0.25" stroke-width="1" />
+  <line x1="0" y1="179" x2="1200" y2="179" stroke="#c9a24b" stroke-opacity="0.25" stroke-width="1" />
+</svg>
