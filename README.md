@@ -3,7 +3,7 @@
 </picture>
 
 <picture>
-<img src="...github-profile-banner.svg" width="100%">
+<img src="https://raw.githubusercontent.com/msdinesh98/msdinesh98/main/assets/github-profile-body.svg" width="100%">
 ## 📌 About Me
 - 💻 Experienced DevOps Engineer with 4+ years of expertise in designing, configuring, and maintaining scalable CI/CD pipelines and automated deployment workflows.
 - 🐳 Proficient in containerization and orchestration using Docker and Kubernetes for efficient application deployment and management.
@@ -51,5 +51,5 @@
     <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" />
   </a>
 </p>
-<img src="...github-profile-body.svg" width="100%">
+<img src="https://raw.githubusercontent.com/msdinesh98/msdinesh98/main/assets/github-profile-body.svg" width="100%">
 </picture>
