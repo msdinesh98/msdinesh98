@@ -32,7 +32,7 @@
   </text>
 
   <text x="750" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#4d7f92" letter-spacing="2">
-    <tspan fill="#00e5ff">status:</tspan> online &#160;&#160;|&#160;&#160; <tspan fill="#00e5ff">uptime:</tspan> 3.5+ years &#160;&#160;|&#160;&#160; <tspan fill="#00e5ff">next_deploy:</tspan> always
+    <tspan fill="#00e5ff">status:</tspan> online &#160;&#160;|&#160;&#160; <tspan fill="#00e5ff">uptime:</tspan> 3+ years &#160;&#160;|&#160;&#160; <tspan fill="#00e5ff">next_deploy:</tspan> always
   </text>
 
   <rect x="0" y="-30" width="1500" height="30" fill="url(#scanGrad2)">
