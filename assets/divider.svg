@@ -1,0 +1,29 @@
+<svg width="1500" height="60" viewBox="0 0 1500 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path id="wire" d="M 0 30 L 620 30 L 660 10 L 700 50 L 740 30 L 1500 30" fill="none" stroke="#0d3a4a" stroke-width="1.5"/>
+  <path d="M 0 30 L 620 30 L 660 10 L 700 50 L 740 30 L 1500 30" fill="none" stroke="url(#lineGrad)" stroke-width="1.5" filter="url(#glow)"/>
+
+  <circle r="4" fill="#00e5ff" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 0 30 L 620 30 L 660 10 L 700 50 L 740 30 L 1500 30"/>
+  </circle>
+  <circle r="3" fill="#ff5fd8" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="1.3s" path="M 0 30 L 620 30 L 660 10 L 700 50 L 740 30 L 1500 30"/>
+  </circle>
+  <circle r="3" fill="#7dfcff" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="2.6s" path="M 0 30 L 620 30 L 660 10 L 700 50 L 740 30 L 1500 30"/>
+  </circle>
+
+  <circle cx="660" cy="10" r="4" fill="#020308" stroke="#00e5ff" stroke-width="1.5"/>
+  <circle cx="700" cy="50" r="4" fill="#020308" stroke="#00e5ff" stroke-width="1.5"/>
+</svg>

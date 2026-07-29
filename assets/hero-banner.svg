@@ -1,0 +1,142 @@
+<svg width="1500" height="420" viewBox="0 0 1500 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02040a">
+        <animate attributeName="stop-color" values="#02040a;#050a18;#02040a" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#081226">
+        <animate attributeName="stop-color" values="#081226;#0b1830;#081226" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#020308">
+        <animate attributeName="stop-color" values="#020308;#040814;#020308" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M 46 0 L 0 0 0 46" fill="none" stroke="#00e5ff" stroke-opacity="0.14" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="46 46" dur="6s" repeatCount="indefinite"/>
+    </pattern>
+
+    <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glowCyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1500" height="420" fill="url(#bgGrad)"/>
+  <rect width="1500" height="420" fill="url(#grid)"/>
+  <rect width="1500" height="420" fill="url(#vignette)"/>
+
+  <!-- floating particles -->
+  <g fill="#00e5ff">
+    <circle cx="120" cy="360" r="2.4" opacity="0.8">
+      <animate attributeName="cy" values="380;40;380" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="400" r="1.8" opacity="0.7" fill="#7dfcff">
+      <animate attributeName="cy" values="410;20;410" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="430" cy="380" r="2" opacity="0.6">
+      <animate attributeName="cy" values="400;10;400" dur="7.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="390" r="2.2" opacity="0.7" fill="#ff5fd8">
+      <animate attributeName="cy" values="400;30;400" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1230" cy="400" r="1.6" opacity="0.6">
+      <animate attributeName="cy" values="410;60;410" dur="8.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="8.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1380" cy="370" r="2.4" opacity="0.7" fill="#7dfcff">
+      <animate attributeName="cy" values="390;15;390" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- orbiting ring accent -->
+  <g transform="translate(1500 60)" opacity="0.5">
+    <circle r="70" fill="none" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="4 10"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 1500 60" to="360 1500 60" dur="30s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(10 40)" opacity="0.4">
+    <circle r="50" fill="none" stroke="#ff5fd8" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3 8"/>
+    <animateTransform attributeName="transform" type="rotate" from="360 10 40" to="0 10 40" dur="24s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <!-- bracket accents -->
+  <g stroke="#00e5ff" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M 60 60 L 60 90 M 60 60 L 90 60"/>
+    <path d="M 1440 60 L 1440 90 M 1440 60 L 1410 60"/>
+    <path d="M 60 360 L 60 330 M 60 360 L 90 360"/>
+    <path d="M 1440 360 L 1440 330 M 1440 360 L 1410 360"/>
+  </g>
+
+  <!-- title with RGB split glitch -->
+  <g text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold">
+    <text x="752" y="196" font-size="66" fill="#ff5fd8" opacity="0.55" filter="url(#glowSoft)">
+      DINESH MODEPALLI
+      <animate attributeName="x" values="752;749;752;754;752" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="748" y="196" font-size="66" fill="#00e5ff" opacity="0.55" filter="url(#glowSoft)">
+      DINESH MODEPALLI
+      <animate attributeName="x" values="748;751;748;746;748" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="750" y="196" font-size="66" fill="#eafcff" filter="url(#glowCyan)">
+      DINESH MODEPALLI
+      <animate attributeName="opacity" values="1;1;0.85;1;1;0.6;1" keyTimes="0;0.3;0.32;0.34;0.7;0.72;1" dur="5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- underline -->
+  <line x1="470" y1="222" x2="1030" y2="222" stroke="#00e5ff" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="x1" values="750;470;470" dur="1.6s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="x2" values="750;1030;1030" dur="1.6s" begin="0.2s" fill="freeze"/>
+  </line>
+
+  <!-- terminal subtitle with typing effect -->
+  <g font-family="'Courier New', monospace" font-size="21" fill="#8be9ff">
+    <text x="750" y="270" text-anchor="middle" letter-spacing="1">
+      <tspan fill="#00e5ff">root@devops</tspan><tspan fill="#5c7a8a">:~$ </tspan><tspan fill="#eafcff">deploy --env=production --status=stable</tspan>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.15" dur="1s" begin="1.6s" fill="freeze"/>
+    </text>
+    <rect x="1093" y="253" width="10" height="22" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" begin="2.6s"/>
+      <animate attributeName="x" values="770;1093" dur="1s" begin="1.6s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <text x="750" y="308" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#4d7f92" letter-spacing="3" opacity="0">
+    DEVOPS ENGINEER  //  CI-CD  //  CLOUD AUTOMATION  //  INFRASTRUCTURE AS CODE
+    <animate attributeName="opacity" values="0;0;0.85" keyTimes="0;0.5;0.6" dur="1s" begin="2.6s" fill="freeze"/>
+  </text>
+
+  <!-- scanline sweep -->
+  <rect x="0" y="-40" width="1500" height="40" fill="url(#scanGrad)">
+    <animate attributeName="y" values="-40;420" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
