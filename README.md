@@ -14,7 +14,7 @@
 
 ```
 > DevOps Engineer focused on automation, CI/CD, and cloud-native infrastructure
-> 3.5+ years building pipelines, containerized systems & self-healing deployments
+> 3+ years building pipelines, containerized systems & self-healing deployments
 > 1 year hands-on Linux system administration
 > Infrastructure as Code with Terraform — because clicking around consoles doesn't scale
 > Observability wired in from day one: Prometheus + Grafana + CloudWatch
@@ -34,9 +34,9 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00e5ff)](https://linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00e5ff)](https://www.linkedin.com/in/saidineshmodepalli)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00e5ff)](https://github.com/msdinesh98)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00e5ff)](mailto:)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00e5ff)](mailto:saidineshmodepalli@gmail.com)
 
 </div>
 
