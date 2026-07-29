@@ -98,16 +98,13 @@
 
   <!-- title with RGB split glitch -->
   <g text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold">
-    <text x="752" y="196" font-size="66" fill="#ff5fd8" opacity="0.55" filter="url(#glowSoft)">
-      SAI DINESH MODEPALLI
+    <text x="752" y="196" font-size="66" fill="#ff5fd8" opacity="0.55" filter="url(#glowSoft)"> SAI DINESH MODEPALLI
       <animate attributeName="x" values="752;749;752;754;752" dur="4.5s" repeatCount="indefinite"/>
     </text>
-    <text x="748" y="196" font-size="66" fill="#00e5ff" opacity="0.55" filter="url(#glowSoft)">
-      SAI DINESH MODEPALLI
+    <text x="748" y="196" font-size="66" fill="#00e5ff" opacity="0.55" filter="url(#glowSoft)"> SAI DINESH MODEPALLI
       <animate attributeName="x" values="748;751;748;746;748" dur="4.5s" repeatCount="indefinite"/>
     </text>
-    <text x="750" y="196" font-size="66" fill="#eafcff" filter="url(#glowCyan)">
-      SAI DINESH MODEPALLI
+    <text x="750" y="196" font-size="66" fill="#eafcff" filter="url(#glowCyan)"> SAI DINESH MODEPALLI
       <animate attributeName="opacity" values="1;1;0.85;1;1;0.6;1" keyTimes="0;0.3;0.32;0.34;0.7;0.72;1" dur="5s" repeatCount="indefinite"/>
     </text>
   </g>
