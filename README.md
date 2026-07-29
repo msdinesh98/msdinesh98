@@ -16,10 +16,6 @@
 ## Tech Stack
 🚀 CI/CD | 🐳 Docker | ☸️ Kubernetes | 🌍 Terraform | ⚙️ Ansible | ☁️ AWS | 📊 CloudWatch | 📈 Datadog | 🔀 Git | 🐙 GitHub | 🪣 Bitbucket | 🐧 Linux (RHEL & Ubuntu)
 
-
-<head>
-<meta charset="UTF-8">
-<title>DevOps Avatar</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"></script>
 <style>
   body { background:#0d0d0d; }
@@ -133,8 +129,6 @@
 
   </div>
 
-</body>
-</html>
 <picture>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
