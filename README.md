@@ -1,3 +1,4 @@
+<picture>
 <div align="center">
 
 <img src="./assets/hero-banner.svg" width="100%"/>
@@ -45,3 +46,4 @@
 <div align="center">
 <img src="./assets/footer-banner.svg" width="100%"/>
 </div>
+</picture>
